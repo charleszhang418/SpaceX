@@ -8,7 +8,7 @@ export const SAMPLE_DATASETS: Entry[] = [
     title: "Dataset X",
     description:
       "this dataset is blablablablablabla made with bla bla bla",
-    image: event,
+    image: "/../public/images/SPACE_MOUSE.jpg",
     date: "2023/01/33",
     fileCount: 4,
   },
@@ -17,7 +17,7 @@ export const SAMPLE_DATASETS: Entry[] = [
     title: "Dataset X",
     description:
       "this dataset is bla bla bla bla bla bla for bla bla bla",
-    image: event,
+    image: "",
     date: "2023/01/33",
     fileCount: 4,
   },
@@ -26,7 +26,7 @@ export const SAMPLE_DATASETS: Entry[] = [
     title: "Dataset X",
     description:
       "this dataset is blabla for bla bla bla",
-    image: event,
+    image: "",
     date: "2023/01/33",
     fileCount: 1,
   },
@@ -35,7 +35,7 @@ export const SAMPLE_DATASETS: Entry[] = [
     title: "Dataset X",
     description:
       "this dataset is blablablabla",
-    image: event,
+    image: "",
     date: "2023/01/33",
     fileCount: 4,
   },
@@ -44,7 +44,7 @@ export const SAMPLE_DATASETS: Entry[] = [
     title: "Dataset X",
     description:
       "this dataset is blablablablablabla for bla bla bla",
-    image: event,
+    image: "",
     date: "2023/01/33",
     fileCount: 4,
     fileCount: 1000,
@@ -54,7 +54,7 @@ export const SAMPLE_DATASETS: Entry[] = [
     title: "Dataset X",
     description:
       "this dataset is blablablablablabla for bla bla bla",
-    image: event,
+    image: "",
     date: "2023/01/33",
     fileCount: 4,
   },

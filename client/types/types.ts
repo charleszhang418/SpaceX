@@ -5,7 +5,7 @@ export type Entry = {
   id: string;
   title: string;
   description?: string;
-  image: StaticImageData;
+  image: string;
   date?: string;
   fileCount?: number;
 };

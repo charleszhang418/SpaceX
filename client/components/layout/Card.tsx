@@ -14,7 +14,14 @@ export default function Card({
 }: CardProps) {
   return (
     <div className="w-[300px] overflow-hidden rounded-2xl border border-grey1 md:w-[250px] m-1">
-      <Image src={image} alt={title} className="aspect-[2/1] object-cover" />
+      <Image
+         src={image}
+         alt={title}
+         className="object-cover w-full h-full"
+         layout="responsive"
+         width={300}
+         height={150}  
+      />
       <div className="relative whitespace-normal">
         <div className="absolute inset-0 opacity-10" />
         <div className="relative px-6 pb-8 pt-5">
@@ -25,11 +32,6 @@ export default function Card({
           >
             {title}
           </h4>
-          {/* {description && (
-            <p className="mb-5 text-sm leading-loose text-grey2 md:text-md">
-              {description}
-            </p>
-          )} */}
           {date && (
             <div className="mb-5 flex items-center gap-3">
               <p className="text-sm text-grey2 md:text-md">Updated {date}</p>
