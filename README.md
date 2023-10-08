@@ -7,6 +7,7 @@ Zootopia
 + Our model
   + [Space mouse](https://drive.google.com/file/d/1whPLN43rjUPgN1GDoUAqkWY8IbISKB6Y/view?usp=sharing)
 
+- Following is details about data processing from *.fastq.gz to dna data needed for the model zoo. Reference dataset can be found at the bottom.
 ## Data folder structure
 ```
 📂Data
