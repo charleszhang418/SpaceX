@@ -5,7 +5,9 @@
     https://www.spaceappschallenge.org/2023/challenges/building-the-space-biology-model-zoo
 
 ## Our model
-  + [Space mouse](https://drive.google.com/file/d/1whPLN43rjUPgN1GDoUAqkWY8IbISKB6Y/view?usp=sharing)
+  + Space Mouse
+    + [Google Drive Direct Download](https://drive.google.com/file/d/1whPLN43rjUPgN1GDoUAqkWY8IbISKB6Y/view?usp=sharing)
+    + [Hugging Face](https://huggingface.co/CheesyChank/Space-Mouse-DNABERT)
   + More models will be coming, due to time limit, we only have time for one trained model
 
 
