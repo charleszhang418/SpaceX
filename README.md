@@ -34,6 +34,15 @@
 
 ```
 
+## Code folder structure
+```
+📂Code
+ ┣ 📜data_generation_finetune.ipynb // Data processing
+ ┣ 📜data_generation_finetune.ipynb // Data processing
+ ┣ 📜dnabert_finetune_test.ipynb // Finetune Testing
+ ┣ 📜dnabert_pretrain_ipynb // For dnabert pretrain, details will mention below
+ ┣ 📜run_pretrain.py // Will mention below
+```
 
   - Dataset Reference
     - https://genelab.nasa.gov/datasets_and_counting
