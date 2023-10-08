@@ -1,4 +1,4 @@
-Zootopia
+# Zootopia (Model Zoo)
 
 - Challenge
   - Challenge: Model Zoo
