@@ -4,7 +4,7 @@ Zootopia
   - Challenge: Model Zoo
     https://www.spaceappschallenge.org/2023/challenges/building-the-space-biology-model-zoo
 
-  - 时间：
+  - Time
     Toronto: 10.8 9am - 10.9 11:59pm
     Chicago: 10.8 8am - 10.9 10:59pm
 
