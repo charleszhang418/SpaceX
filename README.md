@@ -18,8 +18,8 @@ Zootopia
 + [Google Doc](https://docs.google.com/document/d/1K6lgoii-VoXzJDCYtdKcNZ4D126ZX16gQD661QfDNNE/edit?usp=sharing)
 
 
-- Data Folder Structure
-
+## Project structure
+```
 📂Data
  ┣ 📂intermediate // File processed by scripts in this repo, details below
   ┣ 📜dna_data.csv
@@ -31,3 +31,4 @@ Zootopia
     ┣ 📜YOUR_RAW_DATA.fastq.gz 
     ┗ ... Anything.fastq.gz
     
+```
