@@ -6,6 +6,7 @@
 
 ## Our model
   + [Space mouse](https://drive.google.com/file/d/1whPLN43rjUPgN1GDoUAqkWY8IbISKB6Y/view?usp=sharing)
+  + More models will be coming, due to time limit, we only have time for one trained model
 
 
 ## Data folder structure
