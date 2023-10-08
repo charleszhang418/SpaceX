@@ -16,3 +16,18 @@ Zootopia
   
 
 + [Google Doc](https://docs.google.com/document/d/1K6lgoii-VoXzJDCYtdKcNZ4D126ZX16gQD661QfDNNE/edit?usp=sharing)
+
+
+- Data Folder Structure
+
+📂Data
+ ┣ 📂intermediate // File processed by scripts in this repo, details below
+  ┣ 📜dna_data.csv
+  ┣ 📜dna_str.txt
+ ┣ 📂other
+  ┣ 📜OSD-466-samples.csv // Example sample file downloaded from https://osdr.nasa.gov/bio/repo/data/studies/OSD-466
+ ┣ 📂raw
+   ┣ 📂gz
+    ┣ 📜YOUR_RAW_DATA.fastq.gz 
+    ┗ ... Anything.fastq.gz
+    
