@@ -25,7 +25,8 @@ Zootopia
 ## Data Process
 ```
 
-1. use data_generation_finetune, choose the labels, and store all the datasets in /data/raw/gz, dna_data.csv will be generated in Data/intermediate
+1. use data_generation_finetune, choose the labels, and store all the datasets in /data/raw/gz,
+  dna_data.csv will be generated in Data/intermediate
 2. use data_generation_pretrain, it reads Data/intermediate/dna_data.csv and generate dna_str.txt for use.
 
 ```
