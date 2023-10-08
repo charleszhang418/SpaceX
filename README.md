@@ -8,6 +8,9 @@
   + Space Mouse
     + [Google Drive Direct Download](https://drive.google.com/file/d/1whPLN43rjUPgN1GDoUAqkWY8IbISKB6Y/view?usp=sharing)
     + [Hugging Face](https://huggingface.co/CheesyChank/Space-Mouse-DNABERT)
+  + Zebra Fish
+    + [Google Drive Direct Download](https://drive.google.com/file/d/1xngF0lLYHUaEE2FQ1crdTHAXO-c--Cry/view?usp=sharing)
+    + [Hugging Face](https://huggingface.co/CheesyChank/ZebraFish_DNABert)
   + More models will be coming, due to time limit, we only have time for one trained model
 
 
