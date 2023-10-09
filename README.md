@@ -61,8 +61,14 @@
   + More models will be coming
 
 # Frontend
+- Frontend is developed with React, Next.js, and aesthetic refined with Tailwind CSS, minimize redundancy and maximize usability
+- Home page: Introduce the project
+- Dataset page: allows users to browse and download datasets from our database, these datasets are finetuned and ready for use
+- Model page: allows users to interact with some of our completed models, play with them, and link to our open-sourced repository
 
 # Backend
+- Backend is developed with Python and Flask, which is fast, maintainable and tested
+- Empowers users to download/upload datasets and interact with models from the frontend
 
 ## Future Expectation
 - We aim to establish a more mature and comprehensive database that also allows users to upload data at any time. Users should also be able to upload and download models. Additionally, We aim to establish cloud servers for model training. Users can utilize data from both local and cloud sources for pre-training models.
