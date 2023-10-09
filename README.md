@@ -6,15 +6,6 @@
 
 # High-level Summary
 
-## Our model
-  + Space Mouse
-    + [Google Drive Direct Download](https://drive.google.com/file/d/1whPLN43rjUPgN1GDoUAqkWY8IbISKB6Y/view?usp=sharing)
-    + [Hugging Face](https://huggingface.co/CheesyChank/SpaceMouse_DNABert)
-  + Zebra Fish
-    + [Google Drive Direct Download](https://drive.google.com/file/d/1xngF0lLYHUaEE2FQ1crdTHAXO-c--Cry/view?usp=sharing)
-    + [Hugging Face](https://huggingface.co/CheesyChank/ZebraFish_DNABert)
-  + More models will be coming, due to time limit, we only have time for one trained model
-
 
 ## Data folder structure
 - Following is details about data processing from *.fastq.gz to dna data needed for the model zoo. Reference dataset can be found at the bottom.
@@ -32,14 +23,28 @@
     
 ```
 
-## Data Process
+## Data
+```
+- We used data sample for space project related species projects from [Open Science for Life in Space](https://osdr.nasa.gov/bio/index.html) 
+- Data processing steps:
+  1. Retrieve sample csv and raw data(.gz) files and move into other/ and /raw/gz folders
+  2. Transfer raw data files into csv files, due to the large quantity, we sample them for model
+     training with equal portion from all the samples to reduce bias
+  3. We will convert DNA sequences to kmer using Seq2Kmer as model pretraining input
+
+
 ```
 
-1. use data_generation_finetune, choose the labels, and store all the datasets in /data/raw/gz,
-  dna_data.csv will be generated in Data/intermediate
-2. use data_generation_pretrain, it reads Data/intermediate/dna_data.csv and generate dna_str.txt for use.
+## Our model
+  + Space Mouse
+    + [Google Drive Direct Download](https://drive.google.com/file/d/1whPLN43rjUPgN1GDoUAqkWY8IbISKB6Y/view?usp=sharing)
+    + [Hugging Face](https://huggingface.co/CheesyChank/SpaceMouse_DNABert)
+  + Zebra Fish
+    + [Google Drive Direct Download](https://drive.google.com/file/d/1xngF0lLYHUaEE2FQ1crdTHAXO-c--Cry/view?usp=sharing)
+    + [Hugging Face](https://huggingface.co/CheesyChank/ZebraFish_DNABert)
+  + More models will be coming, due to time limit, we only have time for one trained model
 
-```
+
 
 ## Code folder structure
 ```
