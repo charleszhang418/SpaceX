@@ -65,9 +65,9 @@
 ```
 
 ## Reference
-# Data Set Reference
-- https://genelab.nasa.gov/datasets_and_counting
-- https://science.nasa.gov/biological-physical/programs/space-biology
+- Data Set Reference
+  - https://genelab.nasa.gov/datasets_and_counting
+  - https://science.nasa.gov/biological-physical/programs/space-biology
 
-# Other reference
-- Ji Y, Zhou Z, Liu H, Davuluri RV. DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome. Bioinformatics. 2021 Aug 9;37(15):2112-2120. doi: 10.1093/bioinformatics/btab083. PMID: 33538820.
+- Other reference
+  - Ji Y, Zhou Z, Liu H, Davuluri RV. DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome. Bioinformatics. 2021 Aug 9;37(15):2112-2120. doi: 10.1093/bioinformatics/btab083. PMID: 33538820.
