@@ -1,10 +1,11 @@
 # Zootopia (Model Zoo)
-
-## Challenge
   - Challenge: Model Zoo
     https://www.spaceappschallenge.org/2023/challenges/building-the-space-biology-model-zoo
 
 # High-level Summary
+- Objective: Our project serves a dual purpose: first, it establishes an extensive database for publicly available biomedical data, facilitating pre-training of various models, and second, it enriches models for specific space biology inquiries by identifying pertinent public datasets.
+- Content: We introduce "Zootopia," inspired by Disney's movie, providing a holistic, user-friendly online biomedical ecosystem. It offers uninterrupted access to, preview of, and download options for biomedical data in the Data section. Researchers can also upload and share their experimental data. In the Models section, users can preview, download, and upload pre-trained models specializing in DNA inputs, aiding in fine-tuning specific tasks. Our website was built using Python Flask, Next.js, and MongoDB. We pre-trained animal models with the DNABert framework and conducted fine-tuning. Our models achieved an accuracy rate of 51% in classifying the "spaceflight" category using DNA data from the OSD-466 mouse experiment, surpassing a 33% baseline accuracy.
+- Significance:  Zootopia addresses the critical need for a centralized platform for data and models in biomedical research. This resource simplifies access to crucial datasets, promotes collaboration, and enhances the efficiency of research efforts. Additionally, by providing pre-trained models and tools, Zootopia aids researchers in advancing their studies in space biology, contributing to a deeper understanding of the effects of space environments on living organisms.
 
 
 # Data folder structure
