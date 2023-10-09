@@ -6,6 +6,7 @@
 - We introduce "Zootopia," inspired by Disney's movie, providing a holistic, user-friendly online biomedical ecosystem. It offers uninterrupted access to, preview of, and download options for biomedical data in the Data section. Researchers can also upload and share their experimental data. In the Models section, users can preview, download, and upload pre-trained models specializing in DNA inputs, aiding in fine-tuning specific tasks. Our website was built using Python Flask, Next.js, and MongoDB. We pre-trained animal models with the DNABert framework and conducted fine-tuning. Our models achieved an accuracy rate of 51% in classifying the "spaceflight" category using DNA data from the OSD-466 mouse experiment, surpassing a 33% baseline accuracy.
 - Zootopia addresses the critical need for a centralized platform for data and models in biomedical research. This resource simplifies access to crucial datasets, promotes collaboration, and enhances the efficiency of research efforts. Additionally, by providing pre-trained models and tools, Zootopia aids researchers in advancing their studies in space biology, contributing to a deeper understanding of the effects of space environments on living organisms.
 
+# DataBase
 
 # Data folder structure
 - Following is details about data processing from *.fastq.gz to dna data needed for the model zoo. Reference dataset can be found at the bottom.
@@ -55,6 +56,10 @@
     + [Google Drive Direct Download](https://drive.google.com/file/d/1xngF0lLYHUaEE2FQ1crdTHAXO-c--Cry/view?usp=sharing)
     + [HuggingFace](https://huggingface.co/CheesyChank/ZebraFish_DNABert)
   + More models will be coming
+
+# Frontend
+
+# Backend
 
 ## Future Expectation
 - We aim to establish a more mature and comprehensive database that also allows users to upload data at any time. Users should also be able to upload and download models. Additionally, We aim to establish cloud servers for model training. Users can utilize data from both local and cloud sources for pre-training models.
