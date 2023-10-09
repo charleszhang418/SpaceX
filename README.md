@@ -3,8 +3,8 @@
     https://www.spaceappschallenge.org/2023/challenges/building-the-space-biology-model-zoo
 
 # High-level Summary
-  We introduce "Zootopia," inspired by Disney's movie, providing a holistic, user-friendly online biomedical ecosystem. It offers uninterrupted access to, preview of, and download options for biomedical data in the Data section. Researchers can also upload and share their experimental data. In the Models section, users can preview, download, and upload pre-trained models specializing in DNA inputs, aiding in fine-tuning specific tasks. Our website was built using Python Flask, Next.js, and MongoDB. We pre-trained animal models with the DNABert framework and conducted fine-tuning. Our models achieved an accuracy rate of 51% in classifying the "spaceflight" category using DNA data from the OSD-466 mouse experiment, surpassing a 33% baseline accuracy.
-  Zootopia addresses the critical need for a centralized platform for data and models in biomedical research. This resource simplifies access to crucial datasets, promotes collaboration, and enhances the efficiency of research efforts. Additionally, by providing pre-trained models and tools, Zootopia aids researchers in advancing their studies in space biology, contributing to a deeper understanding of the effects of space environments on living organisms.
+- We introduce "Zootopia," inspired by Disney's movie, providing a holistic, user-friendly online biomedical ecosystem. It offers uninterrupted access to, preview of, and download options for biomedical data in the Data section. Researchers can also upload and share their experimental data. In the Models section, users can preview, download, and upload pre-trained models specializing in DNA inputs, aiding in fine-tuning specific tasks. Our website was built using Python Flask, Next.js, and MongoDB. We pre-trained animal models with the DNABert framework and conducted fine-tuning. Our models achieved an accuracy rate of 51% in classifying the "spaceflight" category using DNA data from the OSD-466 mouse experiment, surpassing a 33% baseline accuracy.
+- Zootopia addresses the critical need for a centralized platform for data and models in biomedical research. This resource simplifies access to crucial datasets, promotes collaboration, and enhances the efficiency of research efforts. Additionally, by providing pre-trained models and tools, Zootopia aids researchers in advancing their studies in space biology, contributing to a deeper understanding of the effects of space environments on living organisms.
 
 
 # Data folder structure
@@ -44,18 +44,16 @@
 ## Introduction
   - Our model is based on DNABERT(Ji Y, Zhou Z, Liu H, Davuluri RV, 2021 DNABERT)[Github Repo](https://github.com/jerryji1993/DNABERT) DNABERT is a specialized Transformer-based model designed to process and understand DNA sequences. It is pre-trained on a large corpus of genomic data and can be fine-tuned for various genomics tasks, offering the potential to advance research and analysis in the field of genomics and bioinformatics.
   - Our model, built on the BERT architecture, has the ability to interpret DNA sequences thanks to its distinctive attention mechanism and sequence processing capabilities. We adapted the DNABERT framework and conducted pre-training using NASA Open Science species data. During pre-training, we processed DNA data by converting DNA sequences into k-mers as inputs, ultimately generating 768-dimensional output representations, which capture the model's understanding of DNA
-
-##
 - The significance of this model lies in its utility for researchers in the field of information data analysis who need to analyze DNA sequences. They can utilize this model to obtain outputs for their specific fine-tuning tasks.
   To ensure the accuracy of the pre-trained model, we conducted several downstream fine-tuning tasks.
 
 ## Pretrained models
   + Space Mouse
     + [Google Drive Direct Download](https://drive.google.com/file/d/1whPLN43rjUPgN1GDoUAqkWY8IbISKB6Y/view?usp=sharing)
-    + [Hugging Face](https://huggingface.co/CheesyChank/SpaceMouse_DNABert)
+    + [HuggingFace](https://huggingface.co/CheesyChank/SpaceMouse_DNABert)
   + Zebra Fish
     + [Google Drive Direct Download](https://drive.google.com/file/d/1xngF0lLYHUaEE2FQ1crdTHAXO-c--Cry/view?usp=sharing)
-    + [Hugging Face](https://huggingface.co/CheesyChank/ZebraFish_DNABert)
+    + [HuggingFace](https://huggingface.co/CheesyChank/ZebraFish_DNABert)
   + More models will be coming
 
 ## Future Expectation
@@ -79,9 +77,9 @@
 - For downstream fine-tuning tasks, we don't have well-defined classification features. We have considered setting the target variable as whether a species exhibits mutations. However, our model demonstrates exceptional DNA interpretation capabilities and greater potential beyond this choice of target variable.
 
 ## Reference
-- Data Set Reference
+- Dataset references
   - https://genelab.nasa.gov/datasets_and_counting
   - https://science.nasa.gov/biological-physical/programs/space-biology
 
-- Other reference
+- Other references
   - Ji Y, Zhou Z, Liu H, Davuluri RV. DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome. Bioinformatics. 2021 Aug 9;37(15):2112-2120. doi: 10.1093/bioinformatics/btab083. PMID: 33538820.
