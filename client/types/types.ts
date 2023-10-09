@@ -2,7 +2,7 @@ import { type StaticImageData } from "next/image";
 
 // a database/mondel entry
 export type Entry = {
-  id: string;
+  _id: string;
   title: string;
   description?: string;
   image: string;
@@ -11,7 +11,7 @@ export type Entry = {
 };
 
 export type Tag = {
-  id: string;
+  _id: string;
   title: string;
   iconType: string;
   iconName: string;

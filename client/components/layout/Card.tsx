@@ -1,5 +1,11 @@
 import Image from 'next/image';
 import { GrDocumentUpdate } from 'react-icons/gr';
+import {MdDownloadForOffline } from 'react-icons/md';
+import useDownloader from "react-use-downloader"; 
+
+import { useDispatch } from "react-redux";
+import { navigateTo } from "@/components/actions/routeActions"; // Replace with the correct path to your actions
+
 
 import { type Entry } from '@/types/types';
 
@@ -12,9 +18,25 @@ export default function Card({
   date,
   fileCount,
 }: CardProps) {
+
+  const dispatch = useDispatch();
+
+  const handleCardClick = () => {
+    // dispatch(navigateTo('/new-route')); // Replace '/new-route' with your desired route
+    
+  };
+
+  const { size, elapsed, percentage, download, cancel, error, isInProgress } = useDownloader(); 
+
+  const fileUrl = "/File.pdf"; 
+  const filename = "File.pdf"; 
+
   return (
-    <div className="w-[300px] overflow-hidden rounded-2xl border border-grey1 md:w-[250px] m-1">
+    <div 
+      
+      className="w-[300px] overflow-hidden rounded-2xl border border-grey1 md:w-[250px] m-1">
       <Image
+        onClick={handleCardClick}
          src={image}
          alt={title}
          className="object-cover w-full h-full"
@@ -39,7 +61,12 @@ export default function Card({
           )}
           {fileCount && (
             <div className="mb-5 flex items-center gap-3">
-              <p className="text-sm text-grey2 md:text-md">{fileCount} files</p>
+             <button onClick={() => download(fileUrl, filename)}> 
+              <MdDownloadForOffline/>
+              </button> 
+              
+              <p className="text-sm text-grey2 m:text-md">{fileCount} file</p>
+              
             </div>
           )}
         </div>
