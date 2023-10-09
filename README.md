@@ -24,7 +24,7 @@
 ```
 
 # Data
-```
+
 - We used data sample for space project related species projects from [Open Science for Life in Space](https://osdr.nasa.gov/bio/index.html) 
 - Data processing steps:
   1. Retrieve sample csv and raw data(.gz) files and move into other/ and /raw/gz folders
@@ -33,7 +33,6 @@
   3. We will convert DNA sequences to kmer using Seq2Kmer as model pretraining input
 
 
-```
 
 # Model
 ## Introduction
