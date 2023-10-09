@@ -4,10 +4,12 @@
   - Challenge: Model Zoo
     https://www.spaceappschallenge.org/2023/challenges/building-the-space-biology-model-zoo
 
+# High-level Summary
+
 ## Our model
   + Space Mouse
     + [Google Drive Direct Download](https://drive.google.com/file/d/1whPLN43rjUPgN1GDoUAqkWY8IbISKB6Y/view?usp=sharing)
-    + [Hugging Face](https://huggingface.co/CheesyChank/Space-Mouse-DNABERT)
+    + [Hugging Face](https://huggingface.co/CheesyChank/SpaceMouse_DNABert)
   + Zebra Fish
     + [Google Drive Direct Download](https://drive.google.com/file/d/1xngF0lLYHUaEE2FQ1crdTHAXO-c--Cry/view?usp=sharing)
     + [Hugging Face](https://huggingface.co/CheesyChank/ZebraFish_DNABert)
