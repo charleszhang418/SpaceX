@@ -7,6 +7,9 @@
 - Zootopia addresses the critical need for a centralized platform for data and models in biomedical research. This resource simplifies access to crucial datasets, promotes collaboration, and enhances the efficiency of research efforts. Additionally, by providing pre-trained models and tools, Zootopia aids researchers in advancing their studies in space biology, contributing to a deeper understanding of the effects of space environments on living organisms.
 
 # DataBase
+- Our databases are created with MongoDB and managed and integrated with Zootopia using our Flask-based backend.
+- It currently consists of a database for Datasets and a database for relevant UI data
+- Users are able to download data for training/tunning, in the form of CSV from the database through the Web interface
 
 # Data folder structure
 - Following is details about data processing from *.fastq.gz to dna data needed for the model zoo. Reference dataset can be found at the bottom.
