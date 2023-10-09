@@ -35,6 +35,12 @@
 
 
 # Model
+## Background
+- DNA sequences are intricate and challenging to comprehend. We believe that large datasets can enable machines to interpret DNA data, assisting scientists in their research.
+- Both DNA and textual data consist of lengthy sequences. We believe that Natural Language Processing (NLP) techniques can be employed to devise methods for analyzing DNA.
+- DNA sequences are typically analyzed using techniques like RNNs and CNNs. We are attempting to incorporate the concept of Large Language Modeling (LLM) by utilizing pre-trained models to enhance the interpretation of DNA.
+- DNA, like textual data, is structured as a sequence. BERT has demonstrated remarkable performance in the field of NLP. We believe that a DNA-specific version of BERT can also excel in the domain of DNA analysis.
+
 ## Introduction
   - Our model is based on DNABERT(Ji Y, Zhou Z, Liu H, Davuluri RV, 2021 DNABERT)[Github Repo](https://github.com/jerryji1993/DNABERT) DNABERT is a specialized Transformer-based model designed to process and understand DNA sequences. It is pre-trained on a large corpus of genomic data and can be fine-tuned for various genomics tasks, offering the potential to advance research and analysis in the field of genomics and bioinformatics.
   - Our model, built on the BERT architecture, has the ability to interpret DNA sequences thanks to its distinctive attention mechanism and sequence processing capabilities. We adapted the DNABERT framework and conducted pre-training using NASA Open Science species data. During pre-training, we processed DNA data by converting DNA sequences into k-mers as inputs, ultimately generating 768-dimensional output representations, which capture the model's understanding of DNA
