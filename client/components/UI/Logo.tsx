@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import dsc from "@/public/logos/dsc.svg";
+import zootopia from "@/public/logos/zootopia.svg";
 
 type LogoProps = {
   classes?: string;
@@ -10,7 +10,7 @@ type LogoProps = {
 export default function Logo({ classes }: LogoProps) {
   return (
     <Link href="/" className={`block ${classes}`}>
-      <Image src={dsc} alt="logo" className="w-10 lg:w-12" />
+      <Image src={zootopia} alt="logo" className="w-10 lg:w-12" />
     </Link>
   );
 }

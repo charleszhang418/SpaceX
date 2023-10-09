@@ -1,6 +1,5 @@
 import SEO from "@/components/SEO/SEO";
 import SectionTitle from "@/components/UI/SectionTitle";
-import TeamCard from "@/components/cards/TeamCard";
 import TagList from "@/components/layout/TagList";
 import CardList from "@/components/layout/CardList";
 import {SAMPLE_DATASETS} from "@/constants/entries";
@@ -13,7 +12,7 @@ export default function Datasets() {
   const [DATASETS, setDATASETS] = useState<Entry[]>([]);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:5000/getDatasetsMetadata')
+    fetch('http://127.0.0.1:8080/getDatasetsMetadata')
       .then((response) => response.json())
       .then((data) => {
         const datasetsArray = Object.values(data) as Entry[];
