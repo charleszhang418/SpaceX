@@ -1,6 +1,9 @@
 # Zootopia (Model Zoo)
+## A holistic, user-friendly online biomedical ecosystem
+
   - Challenge: Model Zoo
     https://www.spaceappschallenge.org/2023/challenges/building-the-space-biology-model-zoo
+    
 
 # High-level Summary
 - We introduce "Zootopia," inspired by Disney's movie, providing a holistic, user-friendly online biomedical ecosystem. It offers uninterrupted access to, preview of, and download options for biomedical data in the Data section. Researchers can also upload and share their experimental data. In the Models section, users can preview, download, and upload pre-trained models specializing in DNA inputs, aiding in fine-tuning specific tasks. Our website was built using Python Flask, Next.js, and MongoDB. We pre-trained animal models with the DNABert framework and conducted fine-tuning. Our models achieved an accuracy rate of 51% in classifying the "spaceflight" category using DNA data from the OSD-466 mouse experiment, surpassing a 33% baseline accuracy.
