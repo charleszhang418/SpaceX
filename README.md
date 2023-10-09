@@ -15,7 +15,7 @@
 - Within the Zootopia platform, users enjoy the convenience of downloading data for training and fine-tuning purposes. This data is accessible in CSV format directly from the database via our user-friendly web interface
 
 # Data folder structure
-- Following is details about data processing from *.fastq.gz to dna data needed for the model zoo. Reference dataset can be found at the bottom.
+- Following are details about data processing from *.fastq.gz to dna data needed for the model zoo. The reference dataset can be found at the bottom.
 ```
 📂Data
  ┣ 📂intermediate // File processed by scripts in this repo, details below
@@ -32,11 +32,11 @@
 
 # Data
 
-- We used data sample for space project related species projects from [Open Science for Life in Space](https://osdr.nasa.gov/bio/index.html) 
+- We used data samples for space project-related species projects from [Open Science for Life in Space](https://osdr.nasa.gov/bio/index.html) 
 - Data processing steps:
-  1. Retrieve sample csv and raw data(.gz) files and move into other/ and /raw/gz folders
+  1. Retrieve sample csv and raw data(.gz) files and move them into other/ and /raw/gz folders
   2. Transfer raw data files into csv files, due to the large quantity, we sample them for model
-     training with equal portion from all the samples to reduce bias
+     training with an equal portion from all the samples to reduce bias
   3. We will convert DNA sequences to kmer using Seq2Kmer as model pretraining input
 
 
