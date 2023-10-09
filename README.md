@@ -67,6 +67,11 @@
  ┣ 📜run_pretrain.py // Will mention below
 ```
 
+## Limitation
+- Currently, we can only access partial experimental data for certain species, making it challenging to obtain a comprehensive dataset. This limitation may introduce bias into our results.
+- We lack the capability to deploy large-scale training and iterations with extensive datasets, which can impact the model's accuracy. However, we have completed all pre-training steps and higher accuracy can be reached with additional iterations.
+- For downstream fine-tuning tasks, we don't have well-defined classification features. We have considered setting the target variable as whether a species exhibits mutations. However, our model demonstrates exceptional DNA interpretation capabilities and greater potential beyond this choice of target variable.
+
 ## Reference
 - Data Set Reference
   - https://genelab.nasa.gov/datasets_and_counting
