@@ -52,6 +52,9 @@
     + [Hugging Face](https://huggingface.co/CheesyChank/ZebraFish_DNABert)
   + More models will be coming
 
+## Future Expectation
+- We aim to establish a more mature and comprehensive database that also allows users to upload data at any time. Users should also be able to upload and download models. Additionally, We aim to establish cloud servers for model training. Users can utilize data from both local and cloud sources for pre-training models.
+- We aim for a more sophisticated user interface (UI) to achieve a better user experience (UX) for researchers and professionals in DNA medicine and biological research, facilitating their studies.
 
 
 ## Code folder structure
