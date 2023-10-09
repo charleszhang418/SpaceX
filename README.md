@@ -36,7 +36,7 @@
 ```
 
 ## Our model
-#Introduction
+# Introduction
   - Our model is based on DNABERT(Ji Y, Zhou Z, Liu H, Davuluri RV, 2021 DNABERT)[Github Repo](https://github.com/jerryji1993/DNABERT) DNABERT is a specialized Transformer-based model designed to process and understand DNA sequences. It is pre-trained on a large corpus of genomic data and can be fine-tuned for various genomics tasks, offering the potential to advance research and analysis in the field of genomics and bioinformatics.
   - Our model, built on the BERT architecture, has the ability to interpret DNA sequences thanks to its distinctive attention mechanism and sequence processing capabilities. We adapted the DNABERT framework and conducted pre-training using NASA Open Science species data. During pre-training, we processed DNA data by converting DNA sequences into k-mers as inputs, ultimately generating 768-dimensional output representations, which capture the model's understanding of DNA
 
@@ -47,7 +47,7 @@
   + Zebra Fish
     + [Google Drive Direct Download](https://drive.google.com/file/d/1xngF0lLYHUaEE2FQ1crdTHAXO-c--Cry/view?usp=sharing)
     + [Hugging Face](https://huggingface.co/CheesyChank/ZebraFish_DNABert)
-  + More models will be coming, due to time limit, we only have time for one trained model
+  + More models will be coming
 
 
 
