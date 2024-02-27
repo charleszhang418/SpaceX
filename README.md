@@ -2,7 +2,6 @@
 ## TODOs
 - [ ] Enhance compatibility of CLinet
 - [ ] Pop in more data
-- [ ] Enhance accuracy
 
 ## A holistic, user-friendly online biomedical ecosystem
 
